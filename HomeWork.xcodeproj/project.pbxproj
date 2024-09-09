@@ -14,6 +14,7 @@
 		069D08FA2C8EACA10077DF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069D08F92C8EACA10077DF0B /* Assets.xcassets */; };
 		069D08FD2C8EACA10077DF0B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 069D08FC2C8EACA10077DF0B /* Base */; };
 		069D09052C8EB24C0077DF0B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069D09042C8EB24C0077DF0B /* Person.swift */; };
+		069D09072C8F5CDB0077DF0B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069D09062C8F5CDB0077DF0B /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		069D08FC2C8EACA10077DF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		069D08FE2C8EACA10077DF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069D09042C8EB24C0077DF0B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		069D09062C8F5CDB0077DF0B /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				069D08F02C8EACA00077DF0B /* AppDelegate.swift */,
 				069D08F22C8EACA00077DF0B /* SceneDelegate.swift */,
 				069D08F42C8EACA00077DF0B /* ViewController.swift */,
+				069D09062C8F5CDB0077DF0B /* Helper.swift */,
 				069D09042C8EB24C0077DF0B /* Person.swift */,
 				069D08F62C8EACA00077DF0B /* Main.storyboard */,
 				069D08F92C8EACA10077DF0B /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				069D08F52C8EACA00077DF0B /* ViewController.swift in Sources */,
 				069D08F12C8EACA00077DF0B /* AppDelegate.swift in Sources */,
+				069D09072C8F5CDB0077DF0B /* Helper.swift in Sources */,
 				069D09052C8EB24C0077DF0B /* Person.swift in Sources */,
 				069D08F32C8EACA00077DF0B /* SceneDelegate.swift in Sources */,
 			);

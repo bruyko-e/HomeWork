@@ -8,10 +8,15 @@
 import Foundation
 
 class Person {
-	let name = "Djony"
-	let surename = "Mem"
+	let name: String
+	let surename: String
 	
 	var fullName: String {
 		"\(name) \(surename)"
+	}
+	
+	init(name: String, surename: String) {
+		self.name = name
+		self.surename = surename
 	}
 }
