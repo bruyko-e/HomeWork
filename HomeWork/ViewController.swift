@@ -17,11 +17,23 @@ class ViewController: UIViewController {
 	}
 	
 	private func showFullName() {
-		helper.addPerson(Person(name: "Tim", surename: "Cook"))
-		helper.addPerson(Person(name: "Tailor", surename: "Swift"))
+		helper.addPerson(
+			User(
+				login: "Login",
+				password: "password",
+				person: Person(name: "Tim", surename: "Cook")
+			)
+		)
+		helper.addPerson(
+			User(
+				login: "Login",
+				password: "password",
+				person: Person(name: "Tailor", surename: "Swift")
+			)
+		)
 		
-		for person in helper.getPeople() {
-			print("Меня зовут \(person.fullName), я создал свое первое приложение.")
+		for user in helper.getUsers() {
+			print("Меня зовут \(user.person.fullName), я создал свое первое приложение.")
 		}
 	}
 }
