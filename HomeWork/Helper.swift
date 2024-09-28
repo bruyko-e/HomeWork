@@ -8,9 +8,13 @@
 import Foundation
 
 class Helper {
-	private var users = [User]()
+	private var users: [User] = []
 	
-	func addPerson(_ user: User) {
+	func addUsers(_ users: [User]) {
+		self.users.append(contentsOf: users)
+	}
+	
+	func addUser(_ user: User) {
 		users.append(user)
 	}
 	
